@@ -1,4 +1,5 @@
 
+
 const isTub = (number: number) => {
     let isTub = true
     for (let i = 2; i < number; i++) {
@@ -14,3 +15,4 @@ const isTub = (number: number) => {
     }
 }
 isTub(11)
+// 11 is tub number

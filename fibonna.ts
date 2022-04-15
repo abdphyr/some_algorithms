@@ -19,4 +19,5 @@ const isFibonna = (number: number) => {
         return
     }
 }
-isFibonna(342)
+isFibonna(34)
+// 34 is fibonna number

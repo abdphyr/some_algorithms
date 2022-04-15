@@ -22,3 +22,4 @@ const reduce = (arr: any[]) => {
 }
 
 console.log(reduce([[[1], [2], [3], [[4]], [9]]]))
+// 19
