@@ -11,6 +11,8 @@ const flat = (arr: any[]) => {
     }
     return array
 }
+console.log(flat([[2], [3], [4, [5, [6]]], [7]]))
+// [2, 3, 4, 5, 6, 7]
 
 const reduce = (arr: any[]) => {
     const array = flat(arr)
