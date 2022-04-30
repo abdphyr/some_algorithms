@@ -3,7 +3,7 @@
 const flat = (arr: any[]) => {
     let array: any[] = []
     for (let i = 0; i < arr.length; i++) {
-        if (typeof arr[i] === 'object') {
+        if (Array.isArray(arr[i])) {
             array = [...array, ...flat(arr[i])]
         } else {
             array = [...array, arr[i]]
